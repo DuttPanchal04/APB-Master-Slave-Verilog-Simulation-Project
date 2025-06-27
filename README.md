@@ -62,8 +62,8 @@ APB (Advanced Peripheral Bus) is part of the AMBA protocol suite from ARM, ideal
 
 You can run this project on EDA Playground directly:
 
-👉 Click Here to Simulate
-(replace with your actual link)
+👉 [Click Here to Simulate APB Master on EDA Playground](https://www.edaplayground.com/x/YVBn)
+👉 [Click Here to Simulate APB Slave on EDA Playground](https://www.edaplayground.com/x/A3bD)
 
 ## 🔬 Testcase Scenarios
 
@@ -102,12 +102,6 @@ Each scenario can be simulated using `$test$plusargs()`:
 ---
 
 ## 📈 Waveform Debugging
-
-Waveforms provide full signal trace visibility, such as:
-- FSM transitions
-- `PADDR`, `PWDATA`, `PRDATA`
-- Timing of `PSEL`, `PENABLE`, `PREADY`
-- Assertion of `PSLVERR` and `protocol_error` flags
 
 
 ---

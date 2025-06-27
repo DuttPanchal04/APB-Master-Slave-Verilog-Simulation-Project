@@ -133,6 +133,10 @@ Waveforms provide full signal trace visibility, such as:
 
 ---
 
+## Reference
+
+- [AMBA APB PROTOCOL SPECIFICATION - ARM OFFICIAL](https://developer.arm.com/documentation/ihi0024/latest/)
+
 ## 👨‍💻 Author
 
 **Dutt Panchal** 

@@ -101,8 +101,19 @@ Each scenario can be simulated using `$test$plusargs()`:
 
 ---
 
-## 📈 Waveform Debugging
+## 📈 Waveform Debugging ( Snapshots of Results of Some Testcases )
 
+Single Write and Single Read Operation - APB Master
+![SINGLE WRITE AND READ - APB MASTER](https://github.com/user-attachments/assets/ea520245-5222-40b0-bf04-8cc23ba0d6d1)
+
+Write and Read Operation - APB Slave
+![WRITE AND READ - APB SLAVE](https://github.com/user-attachments/assets/8578bf08-bb7a-4f80-8558-19eaa3898e68)
+
+Slave Error Response - APB Slave
+![SLAVE ERROR - APB SLAVE](https://github.com/user-attachments/assets/730c7a51-a837-462a-ae51-b006a14b1298)
+
+Protocol Violation - APB Slave
+![Protocol Error - APB SLAVE](https://github.com/user-attachments/assets/79ffb57d-00e3-4e6b-a63a-18bdee16dadc)
 
 ---
 

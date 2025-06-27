@@ -1,0 +1,114 @@
+$date
+	Fri Jun 27 04:29:35 2025
+$end
+
+$version
+	Synopsys VCS version U-2023.03-SP2_Full64
+$end
+
+$timescale
+	1ns
+$end
+
+$comment Csum: 1 3f6ec30539bf6064 $end
+
+
+$scope module apb_slave_tb $end
+$var reg 1 ! PCLK $end
+$var reg 1 " RSTN $end
+$var reg 1 # PWRITE $end
+$var reg 1 $ PSEL $end
+$var reg 1 % PENABLE $end
+$var reg 8 & PADDR [7:0] $end
+$var reg 8 ' PWDATA [7:0] $end
+$var wire 8 ( PRDATA [7:0] $end
+$var wire 1 ) PREADY $end
+$var wire 1 * PSLVERR $end
+$var integer 32 + i $end
+
+$scope module dut $end
+$var reg 2 , current_state [1:0] $end
+$var reg 2 - next_state [1:0] $end
+$var wire 1 . invalid_addr $end
+$var wire 1 / protocol_error $end
+$var wire 1 " RSTN $end
+$var wire 1 ! PCLK $end
+$var wire 1 # PWRITE $end
+$var wire 1 $ PSEL $end
+$var wire 1 % PENABLE $end
+$var wire 8 & PADDR [7:0] $end
+$var wire 8 ' PWDATA [7:0] $end
+$var reg 1 ) PREADY $end
+$var reg 8 ( PRDATA [7:0] $end
+$var reg 1 * PSLVERR $end
+$var integer 32 0 k $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+0%
+0$
+x#
+0"
+0)
+0*
+x.
+0/
+bxxxxxxxx &
+bxxxxxxxx '
+bxx ,
+b00000000 (
+bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx +
+b00000000000000000000000100000000 0
+b00 -
+$end
+#5
+1!
+1"
+b00 ,
+#10
+0!
+#15
+1!
+#20
+0!
+#25
+1!
+#30
+0!
+#35
+1!
+1$
+1%
+1#
+b01010101 '
+b11001010 &
+0.
+1/
+#40
+0!
+#45
+1!
+b00110111 &
+b10101010 '
+1)
+1*
+#50
+0!
+#55
+1!
+b10110001 &
+b00001111 '
+#60
+0!
+#65
+1!
+#70
+0!
+#75
+1!

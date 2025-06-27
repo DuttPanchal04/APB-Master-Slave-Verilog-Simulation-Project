@@ -21,13 +21,6 @@ Welcome to the **APB (Advanced Peripheral Bus) Master-Slave** implementation in 
 
 ---
 
-## 📁 Project Structure
-
-```bash
-apb_master_slave/
-├──
-```
-
 ## 🧠 What is APB?
 APB (Advanced Peripheral Bus) is part of the AMBA protocol suite from ARM, ideal for connecting low-power peripherals such as timers, UART, GPIOs.
 

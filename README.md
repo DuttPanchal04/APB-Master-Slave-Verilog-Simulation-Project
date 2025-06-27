@@ -115,6 +115,8 @@ Slave Error Response - APB Slave
 Protocol Violation - APB Slave
 ![Protocol Error - APB SLAVE](https://github.com/user-attachments/assets/79ffb57d-00e3-4e6b-a63a-18bdee16dadc)
 
+Run more testcases from EDA Playground!
+
 ---
 
 ## 📌 Learning Outcomes
